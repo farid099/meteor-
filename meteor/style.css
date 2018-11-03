@@ -1,0 +1,612 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{list-style-type: none}
+a{text-decoration: none}
+
+.head{
+    background-image:url("moun.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.gray0{
+    background-color:  rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 500px;
+    width: 100%;}
+
+.container{
+    position: relative;
+    width: 80%;
+    margin:0px auto;
+    padding: 30px;
+}
+.navbar h1{
+    font-family: 'Norican', cursive;
+   float: left;
+   color:#E1E9EF;
+   letter-spacing: 3px;
+}
+.navbar ul{
+    position: absolute;
+    left: 700px;
+    top: 26px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+i.fa{
+    font-size: 15px;
+    padding-right: 4px;
+}
+li a{
+    color: #E1E9EF
+}
+li a:hover{
+    text-decoration: underline;
+}
+.second{
+    text-align: center;
+  padding: 150px;
+  color: #E1E9EF;
+}
+.second h1{
+    padding-top: 5px;
+    color: #FAFCFB;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.second p{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.second button{width: 20%;
+    height: 50px;
+    background-color: #A2CF8E;
+    color: #FAFCFB;
+    border: none;
+    border-radius: 30px
+   }
+   .second button:hover{
+    background-color: rgb(39, 122, 3);
+    color: #FAFCFB;
+    transition: all 0.3s linear;
+   }
+   .head2{
+       background-color: #F4F4F4;
+       height: 450px;
+   }
+   .num1{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: center;
+      padding: 30px;
+      font-size: 1.3em;
+      color: rgb(43, 43, 43);
+
+   }
+   .num1 hr{position: absolute;
+    left: 603px;
+    top:89px;
+       width: 55px;
+       border: 2px solid #A2CF8E;
+   }
+   .float{
+       width: 100%;
+       height:300px;
+   }
+
+   .left1{
+       text-align: center;
+        margin-top: 20px;
+       float: left;
+       margin-right: 1.6%;
+       width: 23%;
+       height: 250px;
+       background-color: #FFFFFF;
+       box-shadow:1px 1px 5px 5px rgb(216, 216, 216);
+   }
+   .left1 i.fa{
+       margin-top: 40px;
+       font-weight: bold;
+       font-size: 1.5em;
+       color: gray;
+   }
+   .left1 h3{
+       font-weight: bold;
+       margin-top: 30px;
+       color: rgb(53, 53, 53)
+   }
+   .left1 p{
+       margin: 30px auto;
+       width: 90%;
+       color: gray;
+   }
+   .left1:hover{
+       background-color: #A2CF8E;
+       }
+       .left1 i.fa:hover{
+           transform: rotate(360deg);
+           transition: all 1s linear;
+       }
+   .head3{
+    background-image:url("winter.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+   .gray{
+       background-color:  rgba(0, 0, 0, 0.788);
+       position: absolute;
+       height: 500px;
+       width: 100%;
+   }
+   .head3 .left{
+       width: 48%;
+       float: left;
+   }
+   .head3 .left h2{
+    margin-top:30px;
+       color: #E1E9EF;
+   }
+   .head3 .left p{
+       color:rgb(172, 171, 171);
+       margin-top:30px;
+   }
+   .registerbtn{
+       border:none;
+    margin-top:40px;
+    width: 28%;
+    height: 50px;
+    border-radius: 30px;
+    background:#FAFCFB;
+}
+    .registerbtn:hover{
+        background:#A2CF8E;
+        color: #FAFCFB;
+    }
+    .head3 .right{
+        margin-top: 40px;
+        position: relative;
+        width: 48%;
+        float: right;
+    }
+    .pic{
+        position: absolute;
+        width: 250px;
+        height: 180px;
+        border-radius: 5px;
+        border: none;
+       
+    }
+    .ice1{
+        background: url("ice1.jpg");
+        background-size: cover;
+        top: 80px;
+        z-index: 1;
+
+     }
+     .ice2{
+         background: url("ice2.jpg");
+         background-size: cover;
+         position: absolute;
+         left:180px;
+        }
+        .ice3{
+            background: url("ice3.png");
+            background-size: cover;
+            top: 160px;
+            left: 230px;
+        }
+    
+    .head4{
+        background-color: #F4F4F4;
+        width: 100%;
+        height: 200px;
+    }
+    .head4 .navbar{
+        height: 100px;
+        width: 100%;
+    }
+    .head4 .navbar1 ul{
+        position: absolute;
+        left: 430px;
+        top: 136px;
+        font-size: 15px;
+    }
+    .head4 .navbar1 ul li{
+        display: inline;
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+    .head4 .navbar1 ul li a{
+        color:gray;
+
+    }
+    .head5{
+        width: 100%;
+        height: 400px;
+        
+        background-color: #F4F4F4;
+        
+    }
+    .head5 .ffloat{
+    
+        display: inline;
+    }
+    .foto1{
+        background-image: url("foto1.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .foto2{
+        background-image: url("foto2.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-right: 2%;
+
+    }
+    .foto3{
+        background-image: url("foto3.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-right: 2%;
+    }
+    .foto4{
+        background-image: url("foto4.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-right: 2%;
+    }
+    .ffloat1 .foto1{
+        background-image: url("foto5.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+
+    .ffloat1 .foto2{
+        background-image: url("foto6.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-right: 2%;
+
+    }
+    .ffloat1 .foto3{
+        background-image: url("foto7.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    .ffloat1  .foto4{
+        background-image: url("foto8.jpg");
+        background-size: cover;
+        width: 23%;
+        height: 150px;
+        float: left;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    .head5 .ff:hover{
+        width: 23%;
+        height: 150px;
+    box-shadow:  0px 0px 143px 45px rgba(150, 148, 148, 0.75);
+    }
+    .head6{
+        background-color:#A2CF8E;
+    }
+    .head6 p{
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        padding-top:70px;
+        letter-spacing: 0.5px;
+        color: WHITE;
+    }
+    .head6 hr{
+        margin:5px auto;
+        width: 70px;
+      border: 2px solid rgb(250, 252, 249);
+    }
+    .bigdiv {
+        width: 80%;
+        height:500px;
+        margin:0px auto;
+        margin-top:50px;
+    }
+    .divpart {
+        width: 49%;
+        height:400px;
+        background-image: url(sport.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-right:20px;
+        float: left;
+        position: relative;
+        z-index:1;
+    }
+    .opp{
+        width: 100%;
+        height:90px;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: absolute;
+        bottom:0px;
+        left:0px;
+    }
+    
+    .divpart h1{
+       color:rgba(255, 255, 255, 0.596);
+        font-size: 22px;
+        position: absolute;
+        bottom:30px;
+        left:7px;
+        z-index:1;
+    }
+    .divpart p{
+        color:rgba(255, 255, 255, 0.596);
+        font-size: 13px;
+        position: absolute;
+        bottom:8px;
+        left:7px;
+        z-index:1;
+    }
+    .smldiv {
+        width:49%;
+        height: 190px;
+        margin-bottom:20px;
+        background-color: black;
+        float: left;
+        background-image: url(fasion.jpg);
+        background-position: top;
+        background-size: cover;
+        position: relative;
+    }
+    .opp1{
+        width: 100%;
+        height:90px;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: absolute;
+        bottom:0px;
+        left:0px;
+    }
+    .smldiv h1{
+        color:rgba(255, 255, 255, 0.596);
+        font-size: 22px; 
+        position: absolute;
+        bottom:30px;
+        left:7px;
+        z-index:1;
+    }
+    .smldiv p{
+        color:rgba(255, 255, 255, 0.596);
+        font-size: 13px;
+        position: absolute;
+        bottom:8px;
+        left:7px;
+        z-index:1;
+    }
+    .smldiv2 {
+        width:49%;
+        height: 190px;
+        margin-bottom:20px;
+        background-color: black;
+        float: left;
+        background-image: url(alpinist.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .opp2{
+        width: 100%;
+        height:90px;
+        background-color: rgba(0, 0, 0, 0.541);
+        position: absolute;
+        bottom:0px;
+        left:0px;
+    }
+    .smldiv2 h1{
+        color:rgba(255, 255, 255, 0.596);
+        font-size: 22px;
+        position: absolute;
+        bottom:30px;
+        left:7px;
+        z-index:1;
+    }
+    .smldiv2 p{
+        color:rgba(255, 255, 255, 0.596);
+        font-size: 13px;
+        position: absolute;
+        bottom:8px;
+        left:7px;
+        z-index:1;
+    }
+    .head7 {
+        width: 80%;
+        height:200px;
+        margin:0px auto;
+    }
+    .bum {
+        width: 24%;
+        height:100px;
+        background-color: rgba(184, 183, 183, 0.23);
+        float: left;
+        margin-top:60px;
+        margin-right: 10px;
+    }
+    .bum h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+        color: rgba(31, 223, 31, 0.47);
+        padding-top:25px;
+    }
+    .bum p{
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        color: rgba(73, 73, 73, 0.76)
+    }
+    .bum:hover{
+        border: 3px solid #A2CF8E
+    }
+
+    .head8 {
+        width: 100%;
+        height: 500px;
+        background-image:url(baku.jpg) ;
+        background-position: center;
+        background-size:cover;
+    }
+    .baku {
+        width: 100%;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.75)
+    }
+    .head8 p{
+        font-size: 15px;
+        font-weight: 800;
+        text-align: center;
+        padding-top:70px;
+        letter-spacing: 0.5px;
+        color: WHITE;
+    }
+    .head8 hr{
+        margin:5px auto;
+        width: 50px;
+
+       border: 2px solid white;
+    }
+    .lap{
+        width: 80%;
+        height: 400px;
+        margin: 0px auto;
+    }
+    .map{float: left;
+        width: 48%;
+        height: 300px;
+        margin-top: 30px;
+        
+    }
+   .map img{
+        width: 80%;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+     }
+    .form {
+        width: 48%;
+        height:300px;
+        margin-top: 30px;
+        float: right;
+    }
+    .loginForm input[type=submit]{
+        width: 126px;
+        height: 40px;
+        background:#A2CF8E;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+    .loginForm input[type=submit]:hover{
+        background: rgb(96, 129, 35);
+    }
+    .loginForm .inputHolder{
+        float: left;
+        width: 24%;
+        margin-right: 30px
+    }
+    input#firstname {
+        border-radius: 5px;
+        width: 240px;
+        height:50px ;
+        margin-bottom: 30px;
+        border:none;
+        color:white;
+        padding-left:10px;
+        background-color: rgba(100, 100, 100, 0.192)
+    }
+    input#email {
+        border-radius: 5px;
+        width: 240px;
+        height:50px ;
+        margin-left:124px;
+        border:none;
+        color:white;
+        padding-left:10px;
+        background-color: rgba(100, 100, 100, 0.192)
+    }
+    textarea#text {
+        border-radius: 5px;
+        border:none;
+        color:white;
+        padding-left:10px;
+        background-color: rgba(100, 100, 100, 0.192)
+    }
+    .loginForm textarea{
+        display: block;
+        width: 100%;
+        height:160px;
+        font-size: 1.2em;
+        outline: none;
+        padding: 20px;
+    }
+    .last{
+        background-color: rgba(0, 0, 0, 0.925);
+        height: 110px;
+        color: rgba(250, 252, 251, 0.692);
+        padding-top:10px;
+        font-size: 1.8ex;
+        font-style: italic;
+    }
+    span{
+        color: rgba(255, 0, 0, 0.616)
+    }
+    span1{
+        color:rgba(255, 255, 0, 0.534);
+    }       
+    .last p{
+        float: left;
+    }
+ .registerbbtn{width: 35px;
+    height:35px;
+     float:right;
+     margin-left: 10px;
+     background-color: #A2CF8E;
+     border:none;
+     border-radius: 50%;
+     font-size: 1.2em;
+ }
+ .registerbbtn:hover{
+     height: 65px;
+     width: 65px;
+     transform: rotate(360deg);
+     transition: all 0.5s linear;
+ }
